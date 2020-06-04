@@ -1,3 +1,4 @@
+//The Color combination of the app is #7b02de and #fff
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
