@@ -7,6 +7,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text>Hello Farhan Design the Login Signup Here</Text>
+        <Text>Ok, i'm ready to design Login Signup page Here.</Text>
       </View>
     )
   }
