@@ -1,14 +1,17 @@
 //The Color combination of the app is #7b02de and #fff
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react'
+import { Text, View, StyleSheet } from 'react-native'
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Hello Farhan Design the Login Signup Here</Text>
-    </View>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <Text>Hello Farhan Design the Login Signup Here</Text>
+      </View>
+    )
+  }
 }
+
 
 const styles = StyleSheet.create({
   container: {
